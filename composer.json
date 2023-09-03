@@ -1,0 +1,21 @@
+{
+    "name": "codecomodo/codecomodo",
+    "description": "The PHP Framework for future",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Codecomodo\\": "vendor/codecomodo/framework/src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Veerasaroot Bunkangwan",
+            "email": "bosunakakawa@gmail.com"
+        }
+    ],
+    "require": {
+        "codecomodo/framework": "dev-master"
+    }
+}

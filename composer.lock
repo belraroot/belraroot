@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "cbb166fdaffe9245b58983e6f83aa016",
+    "packages": [
+        {
+            "name": "codecomodo/framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codecomodo/framework.git",
+                "reference": "af25c13d7231b40bd80bc6f4d9dd2f6dda33438a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codecomodo/framework/zipball/af25c13d7231b40bd80bc6f4d9dd2f6dda33438a",
+                "reference": "af25c13d7231b40bd80bc6f4d9dd2f6dda33438a",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Codecomodo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Veerasaroot Bunkangwan",
+                    "email": "bosunakakawa@gmail.com"
+                }
+            ],
+            "description": "Codecomodo framework files",
+            "support": {
+                "issues": "https://github.com/codecomodo/framework/issues",
+                "source": "https://github.com/codecomodo/framework/tree/master"
+            },
+            "time": "2023-09-03T07:52:41+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "codecomodo/framework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
